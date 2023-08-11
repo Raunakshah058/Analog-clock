@@ -1,0 +1,160 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    z-index: 1;
+}
+
+#container{
+    background-color:  #133e7c;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    z-index: 2;
+}
+
+#clock{
+    /* background-color: #091833; */
+    background: linear-gradient(#214079,#06142e);
+    height: 40vw;
+    width: 40vw;
+    border-radius: 50%;
+    font-size: 3vw;
+    color:cyan;
+    position: absolute;
+    box-shadow: 20px 20px 43px rgb(71, 138, 138);
+    border: 3px solid #214079;
+    z-index: 3;
+   
+}
+
+.position{
+    position: absolute;
+}
+
+.clockbox1{
+    right: 10vw;
+    bottom: 34vw;
+
+}
+.clockbox2{
+    right: 3.5vw;
+    bottom: 27vw;
+}
+.clockbox3{
+    right: 1vw;
+    bottom: 18vw;
+}
+.clockbox4{
+    right: 4vw;
+    bottom: 9vw;
+}
+.clockbox5{
+    right: 10vw;
+    bottom: 3vw;
+}
+.clockbox6{
+    right: 19vw;
+    bottom: 0vw;
+}
+.clockbox7{
+    bottom: 2.5vw;
+    right: 28vw;
+}
+
+.clockbox8{
+    bottom: 9vw;
+    right: 34vw
+}
+.clockbox9{
+    bottom: 18vw;
+    right: 38vw;
+}
+.clockbox10{
+    bottom: 26vw;
+    right: 34vw;
+}
+.clockbox11{
+    bottom: 33vw;
+    right: 29vw;
+}
+.clockbox12{
+    right: 19vw;
+}
+
+.input1{
+    
+    height: 2vw;
+    width: 2.5vw;
+    right: 9vw;
+    bottom: 19.2vw;
+    border: none;
+    background-color: cyan;
+    color: black;
+    font-size: 1.5vw;
+    font-weight: bolder;
+   
+    
+}
+
+/* .input2{
+    border: none;
+    height: 2vw;
+    width: 2.5vw;
+    right: 29vw;
+    bottom: 19.2vw;
+    background-color: cyan;
+   
+    
+} */
+
+.circle{
+    height: 2vw;
+    width: 2vw;
+    border-radius: 50%;
+    right: 19vw;
+    top: 19.5vw;
+    background-color: rgb(44, 44, 44);
+    background: linear-gradient(120deg, rgb(44, 44, 44),black);
+    border-bottom: px solid white;
+    box-shadow: 0.3vw 0.2vw 0.5vw cyan;
+    z-index: 5;
+}
+
+
+.hands{
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 5px;
+    transform-origin: bottom;
+    z-index: 4;
+}
+
+#hour{
+    height: 12vw;
+    width: 1vw;
+    right: 19.5vw;
+    top: 9vw;
+   background-color: rgb(255, 18, 18);
+   box-shadow: 3px 3px 30px rgb(255, 18, 18) ;
+}
+
+#minute{
+    height: 15vw;
+    width: 0.8vw;
+    right: 19.5vw;
+    top: 5.8vw;
+    background-color:rgb(37, 37, 253);
+    box-shadow: 3px 3px 30px rgb(37, 37, 253) ;
+}
+#second{
+    height:15vw ;
+    width:0.5vw;
+    right: 19.5vw;
+    top: 5.8vw;
+    right: 19.75vw;
+    top: 5.8vw;
+    background-color: green;
+    box-shadow: 3px 3px 30px green;
+}
